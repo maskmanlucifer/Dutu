@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>dutu</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/style.css" type="text/css">
+    <script src="/assets/todo-list.js"></script>
+</head>
+<body>
+    <div id="aman">
+        <img src="/assets/todo.png" alt="logo" />
+         <h2 style="display: inline;">DUTU</h2><br>
+    </div>
+    <p>A simple app for keeping track of pending or upcoming work.</p>
+    <div id="todo-table">
+        <div id="formsubmit">
+            <form >
+                <input type="text" name="item" placeholder="Add new item...." required>
+            </form>
+        </div>
+      <ul>
+          <% for(let i=0;i<data.length;i++){%>
+              <li><%=(i+1)+"). "%><%=data[i].item%></li>
+          <%}%>
+      </ul>
+    </div>
+</body>
+</html>

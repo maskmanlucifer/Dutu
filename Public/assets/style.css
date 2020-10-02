@@ -1,0 +1,79 @@
+body
+{
+    background: #0d1521;
+    font-family: tahoma;
+    color: #989898;
+}
+#todo-table
+{
+    position: relative;
+    width: 95%;
+    height: 95%;
+    background: #0d1521;
+    margin-top: 20px ;
+    margin-left: 25px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#todo-table form:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input[type="text"]
+{
+    width: 95%;
+    padding: 20px;
+    padding-right: 50px;
+    background:#181c22;
+    border: 0;
+    font-size: 20px;
+    color: #989898;
+    float: left;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li
+{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+#aman
+{
+    margin-left: 50px;
+    height: 40px;
+    width: 90%;
+}
+li:hover
+{
+    text-decoration: line-through;
+    background: rgba(0,0,0,0.2);
+}
+
+h2 
+{
+    float: right;
+}
+p
+{
+    font-size: 20px;
+    text-align: center;
+}
+img 
+{
+    float: left;
+}
